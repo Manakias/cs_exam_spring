@@ -33,4 +33,4 @@ Polymorphism is when two methods with an identical name that are in a relationsh
 c)  Write a "speak" method for Smartphone that states the "name" and "number".
 Done. Point in code commented.
 d)  What is this called when we write a subclass method which overrides a super class method?
-Polymorphism...?
+Method overriding...?
