@@ -52,10 +52,10 @@ public class Queue{
   public Link peek(Link target){
     return target;}
   
-  public Link remove(Link target){
+  public Link remove(){
     Link target = head;
     head.next = head;
-    length=length-1;
+    length = length-1;
     return target;}
   
     
