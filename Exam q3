@@ -25,11 +25,12 @@ public class Stack{
    public Link peek(Link newlink){
     return head;}
    //part B below 
+  
   public Link pop(Link newlink){
     Link target = head;
     head.next = head;
-    return target;
     length=length-1;
+    return target;}
   
 --------------------------------------------------------------
   
@@ -51,7 +52,10 @@ public class Queue{
   public Link peek(Link target){
     return target;}
   
-  public Link remove(Link target){
+  public void remove(Link target){
+    target.next=head;
+    target=null;
+  
     
   
 --------------------------------------------------------------
