@@ -53,8 +53,10 @@ public class Queue{
     return target;}
   
   public void remove(Link target){
-    target.next=head;
-    target=null;
+    Link target = head;
+    head.next = head;
+    length=length-1;
+    return target;}
   
     
   
