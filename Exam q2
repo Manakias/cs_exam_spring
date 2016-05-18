@@ -18,7 +18,7 @@ Coded below.
 -----------------------------------------------------
 public class SerbianSpeaker implements Greetings{
   public String FormalHello(){
-  System.out.println("Zdravo.");}
+  System.out.println("Dobar dan.");}
   public String CasualHello(){
-  System.out.println("Molim?");}
+  System.out.println("Zdravo.");}
   }
